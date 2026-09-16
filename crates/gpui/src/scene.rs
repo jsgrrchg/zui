@@ -1251,6 +1251,7 @@ mod tests {
                 bounds: bounds(),
                 content_mask: ContentMask { bounds: bounds() },
                 color: crate::black(),
+                fade: EdgeFadeParams::default(),
                 tile: AtlasTile {
                     texture_id: AtlasTextureId {
                         index,
